@@ -10,4 +10,4 @@ jobs:
         uses: actions/checkout@v3
       
       - name: 一點都不懂得尊師重道
-        run:  echo ${{ vars.NLFX }}
+        run:  echo '${{ vars.NLFX }}'
