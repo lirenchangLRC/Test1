@@ -1,0 +1,13 @@
+name: GitHub Actions Demo
+run-name: Test by ${{ github.actor }}.
+on:
+  workflow_dispatch:
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+      
+      - name: 一點都不懂得尊師重道
+        run:  echo ${{ vars.NLFX }}
