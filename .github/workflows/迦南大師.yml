@@ -10,4 +10,4 @@ jobs:
         uses: actions/checkout@v3
       
       - name: 送死流賽恩
-        run:  printf ${{ vars.MYGO }}
+        run:  echo '${{ vars.MYGO }}'
